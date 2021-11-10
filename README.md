@@ -63,6 +63,6 @@ This implementation supports all board methods in time proportional to n^2 or be
 
 ## How to Use
 Compilation:  javac Solver.java\
-Execution:    java Solver filename.txt\
+Execution:    java Solver filename.txt
 
 where "filename.txt" is the name of a text file local to the project. The first line of the text file should contain the number of rows/columns in the grid, and each following line should be a row of space separated integer values representing the positions of the tiles (see any of the numerous example text files in the project). Solver.java will output the minimum number of moves necessary to solve the board and the series of board states along the optimal solution path to the command line.
